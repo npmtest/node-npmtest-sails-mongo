@@ -1,6 +1,6 @@
 # npmtest-sails-mongo
 
-#### test coverage for  [sails-mongo (v0.12.2)](https://github.com/balderdashy/sails-mongo#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-sails-mongo.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-sails-mongo) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-sails-mongo.svg)](https://travis-ci.org/npmtest/node-npmtest-sails-mongo)
+#### basic test coverage for  [sails-mongo (v0.12.2)](https://github.com/balderdashy/sails-mongo#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-sails-mongo.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-sails-mongo) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-sails-mongo.svg)](https://travis-ci.org/npmtest/node-npmtest-sails-mongo)
 
 #### Mongo DB adapter for Sails.js
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-sails-mongo/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-sails-mongo/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-sails-mongo/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-sails-mongo/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-sails-mongo/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-sails-mongo/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-sails-mongo/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-sails-mongo/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-sails-mongo/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-sails-mongo/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-sails-mongo/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-sails-mongo/build/coverage.html/index.html)
 
@@ -123,7 +123,8 @@
         "features": [
             "cross-adapter"
         ]
-    }
+    },
+    "bin": {}
 }
 ```
 
